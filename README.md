@@ -8,12 +8,14 @@ Queste liste sono utilizzate come origini dati per le due griglie (dgPersone e d
 Quando l'utente seleziona una persona nella griglia delle persone (dgPersone), il gestore degli eventi dgDati_SelectionChanged viene attivato.
 Questo metodo recupera la persona selezionata e filtra i contatti corrispondenti a quella persona. 
 I contatti filtrati vengono quindi visualizzati nella griglia dei contatti (dgContatti).
+
 #Codice:
 ```C#
      private void dgDati_SelectionChanged(object sender, SelectionChangedEventArgs e)
 ```
 Il programma fornisce anche una barra di stato (statusbar) che mostra informazioni sull'operazione corrente,
 come il numero di righe lette o il contatto selezionato.
+
 #Codice:
 ```C#
  statusbar.Text = $"Ho letto {Persone.Count} righe";
