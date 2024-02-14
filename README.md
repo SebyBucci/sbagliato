@@ -1,4 +1,5 @@
 #RubricaUnoAMolti2
+
 Questo programma è un'applicazione WPF che visualizza due griglie: 
 una per elencare le persone e l'altra per gli elenchi dei contatti. L'utente può caricare i dati da due file CSV: "Persone.csv" e "Contatti.csv".
 Il programma legge i file CSV, crea oggetti Persona e Contatto corrispondenti ai dati letti e li aggiunge alle rispettive liste (Persone e Contatti). 
